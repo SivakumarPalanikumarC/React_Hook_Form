@@ -1,0 +1,11 @@
+
+p {
+  color: #bf1650;
+  position: relative;
+  left: 70px;
+}
+
+p::before {
+  display: inline;
+  content: "⚠ ";
+}
